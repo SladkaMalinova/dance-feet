@@ -102,6 +102,16 @@ main {
   background-size: cover;
 }
 
+/*Gallery page*/
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
+}
+
 /*Footer*/
 
 footer ul {
@@ -123,6 +133,8 @@ footer ul {
   padding: 5%;
   color: #3a3a3a;
 }
+
+
 
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {

@@ -98,23 +98,30 @@ main {
 
 }
 
+/*Request a trial page*/
 #requestatrial {
   background-image: url("../images/dance-studio-banner.webp");
-  background-size: cover;
-  background-position: 75%;
-  padding: 20px 10% 0 10%;
-  flex-grow: 1;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: center;
+  background-color: #000; 
+  padding: 20px 30% 0 20%; 
+  flex-grow: 1; 
 
 }
 
 #requestatrial-form {
-  color:#ffffff;
-  background-color: rgba(60, 60, 60, 0.6);
+  color: #ffffff;
+  background-color: rgba(30, 30, 30, 0.85);
+  backdrop-filter: blur(2px);
   padding: 30px;
+  position: relative;
+  z-index: 10;
+  margin-top: 40px; 
 }
 
 #requestatrial-form>h2 {
-  color:#fafafa;
+  color: #fafafa;
   margin-bottom: 20px;
 }
 
@@ -127,7 +134,10 @@ main {
   border: 1px solid #fafafa;
   border-radius: 2px;
   padding: 0 5px;
+  
 }
+
+
 
 .join-button {
   margin-top: 20px;
@@ -178,8 +188,79 @@ footer ul {
   color: #3a3a3a;
 }
 
+#studio {
+  height: 600px;
+  width: 100%;
+  background: url("assets/images/studio.jpg") no-repeat center top;
+  background-size: cover;
+}
+
+#testimonials {
+  background-color: #f9f9f9;
+  padding: 2em;
+  text-align: center;
+}
+
+#testimonials h2 {
+  margin-bottom: 1em;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.8rem;
+}
+
+#testimonials blockquote {
+  font-style: italic;
+  margin: 1em auto;
+  max-width: 600px;
+  color: #444;
+}
+
+/*Classes & Contact Us pages*/
+
+#classes, #contact {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+form button {
+  background-color: #ff69b4;
+  color: white;
+  padding: 0.7em;
+  border: none;
+  cursor: pointer;
+}
 
 
+#contact {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+#contact form {
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+#contact label {
+  display: block;
+  margin-top: 10px;
+
+}
+
+#contact textarea {
+  width: 100%;
+  resize: vertical;
+}
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /*Header*/
@@ -224,10 +305,12 @@ main {
 }
 
 #requestatrial-form {
-  max-width: 400px;
-  position:absolute;
-  left: 10%;
-  top: 150px;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 220px;
+    background-color: rgba(30, 30, 30, 0.85);
+  }
 }
 
 .text-input:hover {

@@ -261,6 +261,59 @@ form button {
   width: 100%;
   resize: vertical;
 }
+
+
+/*Classes section*/
+
+.classes-page {
+  background-image: url('../images/istockphoto-1218916096-612x612.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.classes-section {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.class-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.class-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  backdrop-filter: blur(4px);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #333;
+  border: 3px solid #fdd835;
+}
+
+.class-box:nth-child(1) { background-color: rgba(255, 204, 204, 0.85); }
+.class-box:nth-child(2) { background-color: rgba(204, 255, 229, 0.85); }
+.class-box:nth-child(3) { background-color: rgba(204, 229, 255, 0.85); }
+.class-box:nth-child(4) { background-color: rgba(255, 236, 179, 0.85); }
+
+
+
+
+
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /*Header*/
@@ -322,10 +375,6 @@ main {
   color: #454b1b;
 }
 
-
-
-
-}
 
 /*Large devices (laptops and desctips, 992px and up)*/
 @media screen and (min-width:992px) {

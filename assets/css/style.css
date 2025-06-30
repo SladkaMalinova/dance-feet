@@ -105,28 +105,31 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
   width: 100%;
+  flex: 1;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 40px 20px;
 }
 
-form {
-  background-color: rgba(255, 255, 255, 0.95); 
-  padding: 30px;
+#requestatrial-form {
+  background-color: rgba(255, 255, 255, 0.60); 
+  padding: 15px;
   border-radius: 12px;
-  max-width: 600px;
-  width: 90%;
+  max-width: 355px;
+  width: 60%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   font-family: Arial, sans-serif;
   color: #333;
+  margin-top: 20px;
+  margin-left: 20px;
+ 
 }
 
-form input,
-form textarea,
-form select {
+#requestatrial-form input,
+#requestatrial-form textarea,
+#requestatrial-form select {
   width: 100%;
   padding: 12px;
   margin-bottom: 15px;
@@ -137,12 +140,12 @@ form select {
   color: #000;              
 }
 
-form input::placeholder,
-form textarea::placeholder {
+#requestatrial-form input::placeholder,
+#requestatrial-form textarea::placeholder {
   color: #666666;              
 }
 
-form button {
+#requestatrial-form button {
   background-color: #ff4081;
   color: white;
   border: none;
@@ -153,28 +156,103 @@ form button {
   transition: background-color 0.3s ease;
 }
 
-form button:hover {
+#requestatrial-form button:hover {
   background-color: #e91e63;
 }
 
-form h2,
-form label,
-form p {
+#requestatrial-form h2,
+#requestatrial-form label,
+#requestatrial-form p {
   color: #17e64b;
 }
 
-form h2 {
+#requestatrial-form h2 {
   font-size: 2rem;
   margin-bottom: 20px;
   color: #c2185b; 
   text-align: center;
 }
 
-form label {
+#requestatrial-form label {
   display: block;
   margin-bottom: 6px;
   font-weight: bold;
   font-size: 1rem;
+}
+
+.request-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.request-page main {
+  flex: 1;
+}
+
+
+/*Contact Us pages*/
+.contact-page {
+  background-image: url('../images/istockphoto-89882950-612x612.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contact form container */
+.contact-section {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Form styles */
+#contact-form {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #17e64b;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #000;
+}
+
+#contact-form button {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+  background-color: #e91e63;
 }
 
 /*Hero section*/
@@ -283,69 +361,7 @@ footer ul {
   color: #444;
 }
 
-/*Contact Us pages*/
 
-.contact-page {
-  background-image: url('../images/istockphoto-89882950-612x612.jpg'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  padding: 40px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.contact-section {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 30px;
-  border-radius: 12px;
-  max-width: 600px;
-  width: 100%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
-.contact-section h1 {
-  text-align: center;
-  color: #cb03fd;
-  margin-bottom: 20px;
-}
-
-form label {
-  display: block;
-  margin-top: 15px;
-  font-weight: bold;
-  color: #4107ff;
-}
-
-form input,
-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #2f2c2c;
-  border-radius: 6px;
-  font-size: 1rem;
-  background-color: #fff;
-  color: #0ad1fe;
-}
-
-form button {
-  margin-top: 20px;
-  background-color: #ff4081;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-form button:hover {
-  background-color: #e91e63;
-}
 
 
 
@@ -443,13 +459,7 @@ main {
   position: relative;
 }
 
-#requestatrial-form {
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    top: 220px;
-    background-color: rgba(30, 30, 30, 0.519);
-  }
+
 }
 
 .text-input:hover {

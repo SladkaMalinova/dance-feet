@@ -114,10 +114,10 @@ main {
 }
 
 #requestatrial-form {
-  background-color: rgba(255, 255, 255, 0.60); 
+  background-color: rgba(193, 168, 133, 0.777); 
   padding: 15px;
   border-radius: 12px;
-  max-width: 355px;
+  max-width: 365px;
   width: 60%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   font-family: Arial, sans-serif;
@@ -163,7 +163,7 @@ main {
 #requestatrial-form h2,
 #requestatrial-form label,
 #requestatrial-form p {
-  color: #17e64b;
+  color: #2f17e6;
 }
 
 #requestatrial-form h2 {
@@ -206,7 +206,7 @@ main {
 
 /* Contact form container */
 .contact-section {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(195, 193, 189, 0.6);
   padding: 30px;
   border-radius: 12px;
   max-width: 600px;
@@ -220,12 +220,13 @@ main {
   color: #333;
 }
 
+
 #contact-form label {
   display: block;
   margin-bottom: 6px;
   font-weight: bold;
   font-size: 1rem;
-  color: #17e64b;
+  color: #0b0b0c;
 }
 
 #contact-form input,
@@ -236,7 +237,7 @@ main {
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 1rem;
-  background-color: #fff;
+  background-color: #f4f3f2;
   color: #000;
 }
 

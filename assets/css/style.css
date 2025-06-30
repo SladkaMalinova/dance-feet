@@ -313,6 +313,19 @@ main {
   color: #333;
 }
 
+/*H2 in Gallery section*/
+.gallery-item h2 {
+  text-align:left;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  color: #c2185b; /* Matches your other headings */
+  font-family: 'Fredoka', sans-serif;
+  letter-spacing: 1px;
+}
+
+
+
 
 /*Footer*/
 

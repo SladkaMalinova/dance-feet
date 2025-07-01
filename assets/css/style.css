@@ -319,10 +319,12 @@ main {
   font-size: 2rem;
   margin-bottom: 30px;
   margin-top: 50px;
-  color: #c2185b; /* Matches your other headings */
+  color: #c2185b; 
   font-family: 'Fredoka', sans-serif;
   letter-spacing: 1px;
 }
+
+
 
 
 
@@ -485,8 +487,17 @@ main {
   color: #454b1b;
 }
 
+@media screen and (max-width: 480px) {
+  .gallery-item h2 {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 10px;
+    word-wrap: break-word;
+  }
+}
 
-/*Large devices (laptops and desctips, 992px and up)*/
+
+/*Large devices (laptops and desctops, 992px and up)*/
 @media screen and (min-width:992px) {
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a;

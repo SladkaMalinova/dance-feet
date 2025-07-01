@@ -267,7 +267,7 @@ main {
 /*About us page*/
 
 .about-page {
-  background-image: url('../images/studio.jpg'); 
+  background-image: url('../images/5d88185a-f39b-40a0-be74-7b0b0d10cedd\ \(7\).jpeg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -278,11 +278,11 @@ main {
   max-width: 800px;
   margin: 60px auto;
   padding: 20px;
-  background-color: rgba(230, 230, 250, 0.3); 
+  background-color: rgba(210, 205, 195, 0.200); 
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   font-family: 'Arial', sans-serif;
-  color: #0a0a0abd;
+  color: #000000bd;
   line-height: 1.6;
   backdrop-filter: blur(4px);
 }

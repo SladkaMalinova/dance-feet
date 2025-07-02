@@ -193,7 +193,7 @@ main {
 
 /*Contact Us pages*/
 .contact-page {
-  background-image: url('../images/istockphoto-89882950-612x612.jpg');
+  background-image: url('../images/AdobeStock_280360554_contact\ us.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -234,10 +234,10 @@ main {
   width: 100%;
   padding: 12px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #979292d9;
   border-radius: 6px;
   font-size: 1rem;
-  background-color: #f4f3f2;
+  background-color: #f8dfc6;
   color: #000;
 }
 
@@ -258,9 +258,9 @@ main {
 
 /*Hero section*/
 #hero {
-  height: 600px;
+  height: 800px;
   width: 100%;
-  background: url("../images/hero-dancers.jpg") no-repeat center top;
+  background: url("../images/AdobeStock_392796966.webp") no-repeat center top;
   background-size: cover;
 }
 
@@ -384,7 +384,7 @@ footer ul {
 /*Classes section*/
 
 .classes-page {
-  background-image: url('../images/istockphoto-1218916096-612x612.jpg');
+  background-image: url('../images/AdobeStock_280360838_classes.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
